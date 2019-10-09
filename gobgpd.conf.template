@@ -1,0 +1,8 @@
+[global.config]
+  as = ASN
+  router-id = "ROUTERID"
+
+[[neighbors]]
+  [neighbors.config]
+    neighbor-address = "172.17.0.1"
+    peer-as = 65000
